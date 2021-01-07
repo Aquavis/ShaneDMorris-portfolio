@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="29px" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>icon-linkedin</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Video-animation-Copy-4" transform="translate(-492.000000, -282.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="icon-linkedin" transform="translate(492.000000, 282.000000)">
+                <rect id="Rectangle" x="1" y="11" width="6" height="18"></rect>
+                <circle id="Oval" cx="3.5" cy="3.5" r="3.5"></circle>
+                <path d="M28.9921569,29 L22.9921569,29 L22.9921569,18.0502984 C22.9921569,16.3981245 21.5882353,14.9565217 19.9960784,14.9565217 C18.4039216,14.9565217 17,16.4062234 17,18.0502984 L17,29 L11,29 L11,10.4130435 L17,10.4130435 L17,12.8913043 C18.0039216,11.2391304 20.2,10 22.0039216,10 C25.8078431,10 29,13.3043478 29,17.2323103 L29,29 L28.9921569,29 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

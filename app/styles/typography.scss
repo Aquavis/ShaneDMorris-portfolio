@@ -1,0 +1,82 @@
+@import 'variables';
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:$header-font;
+}
+
+h1{
+	font-weight:100;
+	font-size:48px;
+	margin-bottom:0;
+	margin-top:0;
+	@media(max-width:500px){
+		font-size:38px;
+		line-height:48px;
+		margin-bottom:5px;
+	}
+}
+
+h2{
+	color:#585858;
+	margin-bottom:4px;
+	&.icon{
+		position: relative;
+		&:before{
+			position: absolute;
+			background-repeat:none;
+			background-size:contain;
+			background-repeat:no-repeat;
+			content:"";
+			left:-70px;
+		}
+		&.quote:before{
+			background-image:url(../images/icon-quotes.svg);
+			width:52px;
+			height:100%;
+			top:-20px;
+			@media(max-width:600px){
+				width:30px;
+				top:-5px;
+				left:-40px;
+			}
+			@media(max-width:410px){
+				top:5px;
+			}
+		}
+		&.award:before{
+			background-image:url(../images/icon-trophy.svg);
+			width:52px;
+			height:52px;
+			top:-30px;
+			@media(max-width:600px){
+				width:30px;
+				top:-15px;
+				left:-45px;
+			}
+			@media(max-width:410px){
+				top:0px;
+				left:-40px;
+			}
+		}
+	}
+}
+
+// Span
+.subhead{
+	display:block;
+	font-size:18px;
+	margin-bottom:40px;
+}
+
+p, span, strong, em, div {
+	font-family:$body-font;
+}
+
+p{
+	font-size:14px;
+	line-height:28px;
+	@media(max-width:500px){
+		font-size:12px;
+		line-height:24px;
+	}
+}

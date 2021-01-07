@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8" />
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Powered by Play: A Campaign for The Strong | The Strong</title>
+	<meta
+	  property="og:title"
+	  content="Powered by Play: A Campaign for The Strong | The Strong"
+	/>
+	<meta
+	  property="og:image"
+	  content="https://www.museumofplay.org/sites/default/files/strong-social-share-image.jpg"
+	/>
+	<meta
+	  property="og:description"
+	  content="Help fund the fun! Play and share the game to support The Strong’s expansion."
+	/>
+	<meta property="og:type" content="website" />
+	<meta
+	  property="og:url"
+	  content="https://www.museumofplay.org/expansion-campaign"
+	/>
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@museumofplay" />
+	<link
+	  rel="shortcut icon"
+	  href="https://www.museumofplay.org/sites/all/themes/nmop17/favicon.ico"
+	  type="image/vnd.microsoft.icon"
+	/>
+	<link rel="stylesheet" href="styles/vendor.css" />
+	<link rel="stylesheet" href="styles/main.css" />
+	<script src="scripts/vendor/modernizr.js"></script>
+  </head>
+  <body>
+	<!--[if IE
+	  ]><p class="browserupgrade">
+		You are using an <strong>outdated</strong> browser. Please
+		<a href="http://browsehappy.com/">upgrade your browser</a> to improve
+		your experience.
+	  </p><!
+	[endif]-->
+	<div class="pn-maze-game">
+	  <div id="view">
+		<div id="sliderContainer">
+		  <div class="warp-speed-header">
+			<h3>Warp Speed</h3>
+			<span class="subhead">How to play:</span>
+		  </div>
+		  <span id="maze-time-left"></span>
+		  <div class="slider">
+			<div>
+			  <div class="maze-content">
+				<img
+				  class="maze-content-icon"
+				  src="./images/avatar.svg"
+				  alt="UFO icon"
+				/>
+				<p>Hover your UFO on the lost toys to collect&nbsp;them.</p>
+				<button
+				  id="advanced-to-slide-1"
+				  type="button"
+				  class="maze-next-btn"
+				  onfocus="this.blur()"
+				  onclick="this.blur()"
+				>
+				  Next
+				  <img
+					src="./images/icon-chevron-right-white.svg"
+					alt=""
+					aria-hidden="true"
+				  />
+				</button>
+			  </div>
+			</div>
+			<div>
+			  <div class="maze-content">
+				<img
+				  class="maze-content-icon"
+				  src="./images/ending.svg"
+				  alt="The Strong icon"
+				/>
+				<p>Then return them to The Strong before time runs&nbsp;out.</p>
+				<button
+				  id="advanced-to-slide-2"
+				  type="button"
+				  class="maze-next-btn"
+				  onfocus="this.blur()"
+				  onclick="this.blur()"
+				>
+				  Next
+				  <img
+					src="./images/icon-chevron-right-white.svg"
+					alt=""
+					aria-hidden="true"
+				  />
+				</button>
+			  </div>
+			</div>
+			<div>
+			  <div class="maze-content">
+				<img
+				  class="maze-content-icon"
+				  src="./images/icon-keyboard-arrows.svg"
+				  alt="Puzzle piece icon"
+				/>
+				<p>
+				  Use your keyboard arrows, or swipe on your mobile screen to
+				  move through the&nbsp;maze.
+				</p>
+				<button
+				  id="advanced-to-slide-3"
+				  type="button"
+				  class="maze-next-btn"
+				  onfocus="this.blur()"
+				  onclick="this.blur()"
+				>
+				  Next
+				  <img
+					src="./images/icon-chevron-right-white.svg"
+					alt=""
+					aria-hidden="true"
+				  />
+				</button>
+			  </div>
+			</div>
+			<div>
+			  <div class="maze-content">
+				<img
+				  class="maze-content-icon"
+				  src="./images/icon-challenge.svg"
+				  alt="Puzzle piece icon"
+				/>
+				<p>Challenge your friends to play the game and donate, too.</p>
+				<button
+				  id="advanced-to-slide-4"
+				  type="button"
+				  class="maze-next-btn"
+				  onfocus="this.blur()"
+				  onclick="this.blur()"
+				>
+				  Next
+				  <img
+					src="./images/icon-chevron-right-white.svg"
+					alt=""
+					aria-hidden="true"
+				  />
+				</button>
+			  </div>
+			</div>
+			<div>
+			  <div class="maze-content">
+				<img
+				  class="maze-content-icon"
+				  src="./images/icon-difficulty.svg"
+				  alt="Puzzle piece icon"
+				/>
+				<p class="choose-difficulty-title">Choose your difficulty:</p>
+				<div class="unlock-instructions">
+				  Share the game after playing to unlock all difficulties.
+				</div>
+				<div class="difficulty-selector">
+				  <ul class="difficulty-choices">
+					<li>
+					  <button
+						id="chose-easy"
+						data-difficulty="easy"
+						type="button"
+						onfocus="this.blur()"
+						onclick="this.blur()"
+						class="difficulty difficulty-easy"
+					  >
+						Easy
+						<svg
+						  version="1.1"
+						  class="locked-or-unlocked"
+						  xmlns="http://www.w3.org/2000/svg"
+						  xmlns:xlink="http://www.w3.org/1999/xlink"
+						  x="0px"
+						  y="0px"
+						  viewBox="0 0 12 15.8"
+						  style="enable-background: new 0 0 12 15.8"
+						  xml:space="preserve"
+						>
+						  <g class="icon-lock">
+							<path
+							  fill="#FFFFFF"
+							  d="M6,12c0.8,0,1.5-0.7,1.5-1.5S6.8,9,6,9s-1.5,0.7-1.5,1.5S5.2,12,6,12z M10.5,5.2H9.8V3.8 C9.8,1.7,8.1,0,6,0S2.2,1.7,2.2,3.8v1.5H1.5C0.7,5.2,0,5.9,0,6.8v7.5c0,0.8,0.7,1.5,1.5,1.5h9c0.8,0,1.5-0.7,1.5-1.5V6.8 C12,5.9,11.3,5.2,10.5,5.2z M3.7,3.8c0-1.3,1-2.3,2.3-2.3s2.3,1,2.3,2.3v1.5H3.7V3.8z M10.5,14.2h-9V6.8h9V14.2z"
+							/>
+						  </g>
+						  <g class="icon-chevron-white">
+							<polygon
+							  fill="#FFFFFF"
+							  points="1.5,2 7.4,7.9 1.5,13.8 3,15.4 10.5,7.9 3,0.4 "
+							/>
+						  </g>
+						</svg>
+					  </button>
+					  <span>45 seconds</span>
+					</li>
+					<li>
+					  <button
+						id="chose-medium"
+						data-difficulty="medium"
+						type="button"
+						onfocus="this.blur()"
+						onclick="this.blur()"
+						class="difficulty difficulty-medium"
+						disabled="disabled"
+					  >
+						Medium
+						<svg
+						  version="1.1"
+						  class="locked-or-unlocked"
+						  xmlns="http://www.w3.org/2000/svg"
+						  xmlns:xlink="http://www.w3.org/1999/xlink"
+						  x="0px"
+						  y="0px"
+						  viewBox="0 0 12 15.8"
+						  style="enable-background: new 0 0 12 15.8"
+						  xml:space="preserve"
+						>
+						  <g class="icon-lock">
+							<path
+							  fill="#FFFFFF"
+							  d="M6,12c0.8,0,1.5-0.7,1.5-1.5S6.8,9,6,9s-1.5,0.7-1.5,1.5S5.2,12,6,12z M10.5,5.2H9.8V3.8 C9.8,1.7,8.1,0,6,0S2.2,1.7,2.2,3.8v1.5H1.5C0.7,5.2,0,5.9,0,6.8v7.5c0,0.8,0.7,1.5,1.5,1.5h9c0.8,0,1.5-0.7,1.5-1.5V6.8 C12,5.9,11.3,5.2,10.5,5.2z M3.7,3.8c0-1.3,1-2.3,2.3-2.3s2.3,1,2.3,2.3v1.5H3.7V3.8z M10.5,14.2h-9V6.8h9V14.2z"
+							/>
+						  </g>
+						  <g class="icon-chevron-white">
+							<polygon
+							  fill="#FFFFFF"
+							  points="1.5,2 7.4,7.9 1.5,13.8 3,15.4 10.5,7.9 3,0.4 "
+							/>
+						  </g>
+						</svg>
+					  </button>
+					  <span>30 seconds</span>
+					</li>
+					<li>
+					  <button
+						id="chose-hard"
+						data-difficulty="hard"
+						type="button"
+						onfocus="this.blur()"
+						onclick="this.blur()"
+						class="difficulty difficulty-hard"
+						disabled="disabled"
+					  >
+						Hard
+						<svg
+						  version="1.1"
+						  class="locked-or-unlocked"
+						  xmlns="http://www.w3.org/2000/svg"
+						  xmlns:xlink="http://www.w3.org/1999/xlink"
+						  x="0px"
+						  y="0px"
+						  viewBox="0 0 12 15.8"
+						  style="enable-background: new 0 0 12 15.8"
+						  xml:space="preserve"
+						>
+						  <g class="icon-lock">
+							<path
+							  fill="#FFFFFF"
+							  d="M6,12c0.8,0,1.5-0.7,1.5-1.5S6.8,9,6,9s-1.5,0.7-1.5,1.5S5.2,12,6,12z M10.5,5.2H9.8V3.8 C9.8,1.7,8.1,0,6,0S2.2,1.7,2.2,3.8v1.5H1.5C0.7,5.2,0,5.9,0,6.8v7.5c0,0.8,0.7,1.5,1.5,1.5h9c0.8,0,1.5-0.7,1.5-1.5V6.8 C12,5.9,11.3,5.2,10.5,5.2z M3.7,3.8c0-1.3,1-2.3,2.3-2.3s2.3,1,2.3,2.3v1.5H3.7V3.8z M10.5,14.2h-9V6.8h9V14.2z"
+							/>
+						  </g>
+						  <g class="icon-chevron-white">
+							<polygon
+							  fill="#FFFFFF"
+							  points="1.5,2 7.4,7.9 1.5,13.8 3,15.4 10.5,7.9 3,0.4 "
+							/>
+						  </g>
+						</svg>
+					  </button>
+					  <span>15 seconds</span>
+					</li>
+				  </ul>
+				</div>
+			  </div>
+			</div>
+			<div>
+			  <video
+				preload="auto"
+				muted
+				playsinline
+				id="ufo-animation"
+				poster="./images/video-poster.png"
+			  >
+				<source src="./videos/ufo-animation.mp4" type="video/mp4" />
+				Your browser does not support the video tag.
+			  </video>
+			</div>
+			<div id="mazeContainer">
+			  <canvas
+				id="mazeCanvas"
+				class="border"
+				height="500"
+				width="500"
+			  ></canvas>
+			</div>
+			<div class="end-card">
+			  <div class="victorious">
+				<h3>You're Amazing!</h3>
+				<h4>
+				  You crushed the <span id="difficulty-beaten"></span> level and
+				  got all the toys back in
+				  <span class="maze-time-taken"></span>&nbsp;seconds.
+				</h4>
+			  </div>
+			  <div class="loser">
+				<h3>
+				  You found <span id="amt-of-toys"></span> of the&nbsp;toys!
+				</h3>
+				<h4>Try again to find them all.</h4>
+			  </div>
+			  <div class="loser-no-toys">
+				<h3>Uh-oh!</h3>
+				<h4>Try again to find the toys to complete the&nbsp;game.</h4>
+			  </div>
+			  <h4 id="share-to-unlock">Share to unlock more!</h4>
+			  <ul class="social-sharing-links">
+				<li>
+				  <button
+					id="maze-share-to-facebook"
+					rel="noopener"
+					target="_blank"
+					aria-label="Share on Facebook"
+				  >
+					<img
+					  src="./images/social-icons/icon-facebook.svg"
+					  alt="Facebook Icon"
+					/>
+				  </button>
+				</li>
+				<li>
+				  <button
+					id="maze-share-to-twitter"
+					target="_blank"
+					rel="noopener"
+					target="_blank"
+					data-target="twitter"
+					aria-label="Share on Twitter"
+				  >
+					<img
+					  src="./images/social-icons/icon-twitter.svg"
+					  alt="Twitter Icon"
+					/>
+				  </button>
+				</li>
+				<li>
+				  <button
+					id="maze-share-to-linked-in"
+					target="_blank"
+					onclick="shareLinkedIn()"
+					rel="noopener"
+					target="_blank"
+					data-target="linkedin"
+					aria-label="Share on LinkedIn"
+				  >
+					<img
+					  src="./images/social-icons/icon-linkedin.svg"
+					  alt="LinkedIn Icon"
+					/>
+				  </button>
+				</li>
+			  </ul>
+			  <p>
+				<strong>Unlock all difficulty levels by sharing</strong>, and
+				support The Strong's expansion.
+			  </p>
+			  <div class="action-btns">
+				<a
+				  id="maze-donate"
+				  target="_blank"
+				  href="https://6672.blackbaudhosting.com/6672/Campaign-Game"
+				  class="btn-text"
+				  ><img src="./images/icon-heart.svg" alt="Heart icon" />
+				  Donate </a
+				><button id="maze-play-again" class="btn-text">
+				  <img
+					src="./images/icon-controller.svg"
+					alt="Game controller icon"
+				  />
+				  Play Again
+				</button>
+			  </div>
+			</div>
+		  </div>
+		  <ul class="indicators">
+			<li class="active"></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		  </ul>
+		</div>
+	  </div>
+	  <div class="maze-accessible">
+		<a
+		  id="maze-accessible-version"
+		  href="./documents/STR_Roc_Capital_Maze_Analog_Print.pdf"
+		  target="_blank"
+		  >Download a printable version</a
+		>
+	  </div>
+	</div>
+	<script src="scripts/vendor.js"></script>
+	<script src="scripts/main.js"></script>
+  </body>
+</html>

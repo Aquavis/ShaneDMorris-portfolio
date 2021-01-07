@@ -1,0 +1,150 @@
+@import 'variables';
+@import 'slider';
+
+header.portfolio-header{
+	padding:30px 30px 10px;
+	.header-info{
+		h1{
+			font-size:24px;
+		}
+		.subhead{
+			font-size:14px;
+		}
+		.ava{
+			width:80px;
+			border-width:2px;
+		}
+	}
+}
+main{
+	position: relative;
+}
+.portfolio{
+	padding:40px 0 0;
+	.title-description{
+		max-width:750px;
+		margin:0 auto 30px;
+		a, a:visited{
+			color:lighten(rgb(5,100,170), 5%);
+			&:hover{
+				text-decoration: none;
+			}
+		}
+	}
+	.title-content{
+		max-width:750px;
+		margin:0 auto 30px;
+		display:flex;
+		align-items:center;
+		justify-content: space-between;
+		align-content:center;
+		margin-bottom:30px;
+		.title{
+			margin-right:20px;
+			& > span{
+				display:flex;
+				align-items:center;
+			}
+			.material-icons{
+				font-size:21px;
+				color:#999999;
+			}
+		}
+		span{
+			font-size:12px;
+			background-color:#efefef;
+			padding:5px;
+		}
+		h2{
+			margin-top:0;
+			margin-bottom:10px;
+			padding-bottom:0;
+			line-height:24px;
+		}
+		a{
+			align-self:center;
+			text-decoration: none;
+			text-transform: uppercase;
+			margin-left:20px;
+			font-family:$body-font;
+			padding:10px 30px;
+			outline:none;
+			border:none;
+			display:inline-flex;
+			align-items:center;
+			font-weight:bold;
+			background-color:darken(#fcc814, 5%);
+			color:#222222;
+			cursor: pointer;
+			transition:all .15s ease-in;
+			i{
+				font-size:18px;
+				margin-left:10px;
+				font-weight:100;
+			}
+			&:hover{
+				background-color: #fcc814;
+			}
+		}
+	}
+
+	.visual-content{
+		padding:80px 120px;
+		text-align:center;
+		background-color:#efefef;
+		iframe{
+			width:100%;
+			height:100%;
+			overflow:hidden;
+		}
+		&.spacing{
+			img{
+				margin-bottom:40px;
+				&:last-of-type{
+					margin-bottom:60px;
+				}
+			}
+		}
+		img{
+			width:100%;
+			text-align:center;
+			max-width:900px;
+			margin:0 auto 10px;
+			box-shadow:0 0 10px rgba(0,0,0,.25);
+		}
+		p{
+			max-width:850px;
+			margin:20px auto 40px;
+			text-align:left;
+		}
+	}
+	@media(max-width:850px){
+		.title-description{
+			padding:0 40px;
+		}
+		.title-content{
+			padding:0 40px;
+			display:block;
+			.title > span{
+				width: auto;
+				display: inline-flex;
+				margin-bottom:20px;
+			}
+			a{
+				margin:20px 0;
+			}
+		}
+	}
+	@media(max-width:680px){
+		.visual-content{
+			padding:40px;
+			&.spacing{
+				img{
+					&:last-of-type{
+						margin-bottom:70px;
+					}
+				}
+			}
+		}
+	}
+}

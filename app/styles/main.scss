@@ -1,0 +1,136 @@
+@import 'variables';
+@import 'typography';
+@import 'header';
+@import 'footer';
+@import 'portfolio';
+@import 'slick';
+
+body{
+	margin:0;
+	padding:0;
+	min-height:100vh;
+}
+
+::selection{
+	background:$yellow;
+}
+
+::-moz-selection{
+	background:$yellow;
+}
+
+.browserupgrade {
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
+}
+
+*, *:before, *:after{
+	box-sizing: border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+
+section{
+	padding:60px 0;
+	position: relative;
+	&.dark{
+		background-color:$header-bg;
+		background-image:url(../images/bg-brands.jpg);
+		background-repeat:repeat-x;
+		background-size:contain;
+		background-position: center center;
+		@media(max-width:1200px){
+			background-repeat:none;
+			background-size:cover;
+		}
+	}
+	&.light{
+		&:before{
+			content:"";
+			position: absolute;
+			width:55vw;
+			left:0;
+			top:83px;
+			height:25px;
+			background-color:$divider;
+			@media(max-width:740px){
+				width:calc(100vw - 40px);
+			}
+		}
+		.subhead{
+			font-style:italic;
+		}
+		ul{
+			list-style-type:none;
+			margin:0 0 60px 0;
+			padding:0;
+			li{
+				margin-bottom:10px;
+			}
+			@media(max-width:500px){
+				li {
+					font-size:10px;
+				}
+			}
+		}
+		@media(max-width: 820px){
+			.section-container{
+				max-width:100%;
+				padding:0 100px;
+			}
+		}
+		@media(max-width:500px){
+			.section-container{
+				padding:0 30px 0 50px;
+			}
+		}
+		@media(max-width:410px){
+			&:before{
+				display:none;
+			}
+		}
+	}
+	.section-container{
+		max-width:620px;
+		margin:0 auto;
+	}
+	.brands{
+		width:100%;
+	}
+	.award-logos{
+		display:flex;
+		justify-content: space-between;
+		img{
+			flex: 0 0 65px;
+			width: 65px;
+			align-self: center;
+			@media(max-width: 550px){
+				flex:0 0 30px;
+				width:30px;
+			}
+		}
+		@media(max-width:500px){
+			padding:0 20px 0 0;
+		}
+	}
+	&.brands{
+		text-align:center;
+		padding-top:60px;
+		.section-container{
+			@media(max-width: 820px){
+				max-width:100%;
+				padding:0 100px;
+			}
+			@media(max-width: 600px){
+				padding:0 40px;
+			}
+		}
+		h3{
+			color:$white;
+			font-size: 24px;
+			margin:0 auto 40px;
+		}
+	}
+}

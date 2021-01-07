@@ -1,0 +1,1483 @@
+.pn-docushare-flex-icon {
+    display: block;
+    width: 60px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:767px) {
+    .pn-docushare-flex-icon {
+        margin: 0 auto 30px;
+    }
+}
+
+.pn-docushare-flex-text-content h2 {
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width:767px) {
+    .pn-docushare-flex-hide-for-mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .pn-docushare-flex-show-for-mobile {
+        display: none;
+    }
+}
+
+[id^=pn-docushare] .pn-docushare-flex-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+[id^=pn-docushare] .pn-docushare-flex-col {
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+
+[id^=pn-docushare] .pn-docushare-flex-col-50 {
+    -ms-flex: 1 0 50%;
+    flex: 1 0 50%;
+}
+
+[id^=pn-docushare] .pn-docushare-flex-col-33 {
+    -ms-flex: 1 0 33%;
+    flex: 1 0 33%;
+}
+
+[id^=pn-docushare] .pn-docushare-flex-col-25 {
+    -ms-flex: 1 0 25%;
+    flex: 1 0 25%;
+}
+
+[id^=pn-docushare] .pn-docushare-flex-col-75 {
+    -ms-flex: 1 0 75%;
+    flex: 1 0 75%;
+}
+
+[id^=pn-docushare] .pn-docushare-flex-col-66 {
+    -ms-flex: 1 0 66%;
+    flex: 1 0 66%;
+}
+
+[id^=pn-docushare] .pn-docushare-flex-desktop-first {
+    -ms-flex-order: 1;
+    order: 1;
+}
+
+[id^=pn-docushare] .pn-docushare-flex-desktop-last {
+    -ms-flex-order: 2;
+    order: 2;
+}
+
+@media screen and (max-width:767px) {
+    [id^=pn-docushare] .pn-docushare-flex-mobile-first {
+        -ms-flex-order: 1;
+        order: 1;
+    }
+}
+
+@media screen and (max-width:767px) {
+    [id^=pn-docushare] .pn-docushare-flex-mobile-last {
+        -ms-flex-order: 2;
+        order: 2;
+    }
+}
+
+@media screen and (max-width:767px) {
+    [id^=pn-docushare] .pn-docushare-flex-row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    [id^=pn-docushare] .pn-docushare-flex-col {
+        -ms-flex: 1 0 auto;
+        flex: 1 0 auto;
+    }
+}
+
+a.pn-docushare-flex-button {
+    display: inline-block;
+    line-height: 3em;
+    font-family: Roboto Condensed, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #d92231;
+    border: 1px solid #d92231;
+    color: #fff;
+    padding: 0 3em;
+    vertical-align: middle;
+    text-align: center;
+}
+
+[id^=pn-docushare] .icon {
+    width: 60px;
+    margin-bottom: 40px;
+}
+
+#pn-docushare-flex-homepage-hero {
+    overflow: hidden;
+    background-color: #2895d5;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner {
+    background-image: url(../images/pn-docushare-flex-landing-hero-stars-bg.jpg);
+    height: auto;
+    width: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner>.pn-docushare-flex-homepage-banner-content {
+    text-align: center;
+    padding: 8vh;
+    z-index: 104;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner>.pn-docushare-flex-homepage-banner-content h1,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner>.pn-docushare-flex-homepage-banner-content h4,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner>.pn-docushare-flex-homepage-banner-content p {
+    font-family: Roboto Condensed, sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner>.pn-docushare-flex-homepage-banner-content h1 {
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner>.pn-docushare-flex-homepage-banner-content h4 {
+    margin: 0 0 1.5rem;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner>.pn-docushare-flex-homepage-banner-content p {
+    margin: 2rem 0;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner>.pn-docushare-flex-homepage-banner-content a.pn-docushare-flex-button {
+    margin: 1.25em 0 0;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner>img.pn-docushare-flex-landing-hero-bg {
+    position: absolute;
+    z-index: 100;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner>img.pn-docushare-flex-landing-hero-bg-stars {
+    position: absolute;
+    z-index: 101;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner>img.pn-docushare-flex-landing-hero-fg-stars {
+    position: absolute;
+    z-index: 102;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-nojs {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-nojs>.pn-docushare-flex-homepage-draggable-left,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable>.pn-docushare-flex-homepage-draggable-left {
+    transition: all .5s ease-out;
+    width: 31%;
+    margin: 1%;
+    text-align: right;
+    display: inline-block;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-nojs>.pn-docushare-flex-homepage-draggable-left.pn-docushare-flex-homepage-draggable-out,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable>.pn-docushare-flex-homepage-draggable-left.pn-docushare-flex-homepage-draggable-out {
+    width: 0;
+    margin: 0;
+}
+
+@media screen and (max-width:500px) {
+    #pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-nojs .pn-docushare-flex-homepage-draggable-left,
+    #pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable .pn-docushare-flex-homepage-draggable-left {
+        text-align: center;
+    }
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-nojs>.pn-docushare-flex-homepage-draggable-center,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable>.pn-docushare-flex-homepage-draggable-center {
+    transition: all .5s ease-out;
+    width: 31%;
+    margin: 1%;
+    text-align: center;
+    display: inline-block;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-nojs>.pn-docushare-flex-homepage-draggable-center.pn-docushare-flex-homepage-draggable-out,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable>.pn-docushare-flex-homepage-draggable-center.pn-docushare-flex-homepage-draggable-out {
+    width: 0;
+    margin: 0;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-nojs>.pn-docushare-flex-homepage-draggable-right,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable>.pn-docushare-flex-homepage-draggable-right {
+    transition: all .5s ease-out;
+    width: 31%;
+    margin: 1%;
+    text-align: left;
+    display: inline-block;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-nojs>.pn-docushare-flex-homepage-draggable-right.pn-docushare-flex-homepage-draggable-out,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable>.pn-docushare-flex-homepage-draggable-right.pn-docushare-flex-homepage-draggable-out {
+    width: 100%;
+    text-align: center;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable #pn-docushare-flex-homepage-draggable-cloud,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-nojs #pn-docushare-flex-homepage-draggable-cloud {
+    max-width: 160px;
+    display: inline-block;
+    margin: auto;
+    position: relative;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable #pn-docushare-flex-homepage-draggable-cloud .pn-docushare-flex-homepage-draggable-cloud-a,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable #pn-docushare-flex-homepage-draggable-cloud .pn-docushare-flex-homepage-draggable-cloud-b,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-nojs #pn-docushare-flex-homepage-draggable-cloud .pn-docushare-flex-homepage-draggable-cloud-a,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-nojs #pn-docushare-flex-homepage-draggable-cloud .pn-docushare-flex-homepage-draggable-cloud-b {
+    fill: url(#pn-docushare-flex-homepage-draggable-cloud-gradient);
+    stroke-miterlimit: 10;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable #pn-docushare-flex-homepage-draggable-cloud .pn-docushare-flex-homepage-draggable-cloud-a,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-nojs #pn-docushare-flex-homepage-draggable-cloud .pn-docushare-flex-homepage-draggable-cloud-a {
+    stroke: #c4e9fa;
+    stroke-width: 4px;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable #pn-docushare-flex-homepage-draggable-cloud .pn-docushare-flex-homepage-draggable-cloud-c,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-nojs #pn-docushare-flex-homepage-draggable-cloud .pn-docushare-flex-homepage-draggable-cloud-c {
+    -webkit-clip-path: url(#a);
+    clip-path: url(#a);
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable #pn-docushare-flex-homepage-draggable-cloud .pn-docushare-flex-homepage-draggable-cloud-e,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-nojs #pn-docushare-flex-homepage-draggable-cloud .pn-docushare-flex-homepage-draggable-cloud-e {
+    stroke: none;
+    fill: #c4e9fa;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable #pn-docushare-flex-homepage-draggable-document,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-nojs #pn-docushare-flex-homepage-draggable-document {
+    max-width: 85px;
+    display: inline-block;
+    margin: auto;
+    position: relative;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable #pn-docushare-flex-homepage-draggable-document .pn-docushare-flex-homepage-draggable-document-st1,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-nojs #pn-docushare-flex-homepage-draggable-document .pn-docushare-flex-homepage-draggable-document-st1 {
+    fill: #669fc1;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable #pn-docushare-flex-homepage-draggable-document .pn-docushare-flex-homepage-draggable-document-st3,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-nojs #pn-docushare-flex-homepage-draggable-document .pn-docushare-flex-homepage-draggable-document-st3 {
+    display: none;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable #pn-docushare-flex-homepage-draggable-document .pn-docushare-flex-homepage-draggable-document-st4,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-nojs #pn-docushare-flex-homepage-draggable-document .pn-docushare-flex-homepage-draggable-document-st4 {
+    display: inline;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable #pn-docushare-flex-homepage-draggable-document .pn-docushare-flex-homepage-draggable-document-st5,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-nojs #pn-docushare-flex-homepage-draggable-document .pn-docushare-flex-homepage-draggable-document-st5 {
+    fill: #67a1c3;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable #pn-docushare-flex-homepage-draggable-document .pn-docushare-flex-homepage-draggable-document-st6,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-nojs #pn-docushare-flex-homepage-draggable-document .pn-docushare-flex-homepage-draggable-document-st6 {
+    display: inline;
+    fill: none;
+    stroke: #67a1c3;
+    stroke-width: 1.8038;
+    stroke-miterlimit: 10;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable #pn-docushare-flex-homepage-draggable-document .pn-docushare-flex-homepage-draggable-document-st7,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-nojs #pn-docushare-flex-homepage-draggable-document .pn-docushare-flex-homepage-draggable-document-st7 {
+    display: inline;
+    fill: #67a1c3;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-cta,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-cta-mobile {
+    transition: all .5s ease-out;
+    margin-bottom: 10px;
+    font-size: .9em;
+    color: #fff;
+    font-family: Roboto Condensed, sans-serif;
+    font-weight: 400;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+    opacity: 1;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-cta-mobile.pn-docushare-flex-homepage-draggable-out,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-cta.pn-docushare-flex-homepage-draggable-out {
+    opacity: 0;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-cta {
+    display: block;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-cta-mobile {
+    display: none;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner #pn-docushare-flex-homepage-draggable-arrow,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner #pn-docushare-flex-homepage-draggable-arrow-mobile {
+    transition: opacity .5s ease-out;
+    max-width: 255px;
+    margin: auto;
+    opacity: 1;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner #pn-docushare-flex-homepage-draggable-arrow-mobile.pn-docushare-flex-homepage-draggable-out,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner #pn-docushare-flex-homepage-draggable-arrow.pn-docushare-flex-homepage-draggable-out {
+    opacity: 0;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner #pn-docushare-flex-homepage-draggable-arrow-mobile .pn-docushare-flex-homepage-draggable-arrow-a,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner #pn-docushare-flex-homepage-draggable-arrow-mobile .pn-docushare-flex-homepage-draggable-arrow-b,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner #pn-docushare-flex-homepage-draggable-arrow .pn-docushare-flex-homepage-draggable-arrow-a,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner #pn-docushare-flex-homepage-draggable-arrow .pn-docushare-flex-homepage-draggable-arrow-b {
+    fill: none;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner #pn-docushare-flex-homepage-draggable-arrow-mobile .pn-docushare-flex-homepage-draggable-arrow-b,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner #pn-docushare-flex-homepage-draggable-arrow .pn-docushare-flex-homepage-draggable-arrow-b {
+    stroke: #fff;
+    stroke-linecap: square;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+    stroke-dasharray: 5 10;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner #pn-docushare-flex-homepage-draggable-arrow-mobile .pn-docushare-flex-homepage-draggable-arrow-c,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner #pn-docushare-flex-homepage-draggable-arrow .pn-docushare-flex-homepage-draggable-arrow-c {
+    fill: transparent;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner #pn-docushare-flex-homepage-draggable-arrow-mobile .pn-docushare-flex-homepage-draggable-arrow-e,
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner #pn-docushare-flex-homepage-draggable-arrow .pn-docushare-flex-homepage-draggable-arrow-e {
+    fill: #fff;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner #pn-docushare-flex-homepage-draggable-arrow {
+    display: block;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner #pn-docushare-flex-homepage-draggable-arrow .pn-docushare-flex-homepage-draggable-arrow-d {
+    -webkit-clip-path: url(#pn-docushare-flex-homepage-draggable-arrow-a);
+    clip-path: url(#pn-docushare-flex-homepage-draggable-arrow-a);
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner #pn-docushare-flex-homepage-draggable-arrow-mobile {
+    display: none;
+    margin: auto;
+}
+
+#pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner #pn-docushare-flex-homepage-draggable-arrow-mobile .pn-docushare-flex-homepage-draggable-arrow-d {
+    -webkit-clip-path: url(#pn-docushare-flex-homepage-draggable-arrow-mobile-a);
+    clip-path: url(#pn-docushare-flex-homepage-draggable-arrow-mobile-a);
+}
+
+@media screen and (max-width:500px) {
+    #pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-right {
+        text-align: right;
+    }
+    #pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner #pn-docushare-flex-homepage-draggable-arrow,
+    #pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-cta {
+        display: none;
+    }
+    #pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner #pn-docushare-flex-homepage-draggable-arrow-mobile,
+    #pn-docushare-flex-homepage-hero>.pn-docushare-flex-homepage-hero-banner .pn-docushare-flex-homepage-draggable-cta-mobile {
+        display: block;
+    }
+}
+
+#pn-docushare-flex-landing-hero {
+    overflow: hidden;
+}
+
+#pn-docushare-flex-landing-hero>.pn-docushare-flex-landing-hero-banner {
+    background-image: url(../images/pn-docushare-flex-landing-hero-stars-bg.jpg);
+    background-color: #2895d5;
+    height: auto;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#pn-docushare-flex-landing-hero>.pn-docushare-flex-landing-hero-banner>.pn-docushare-flex-banner-content {
+    text-align: center;
+    padding: 8vh;
+    z-index: 104;
+}
+
+#pn-docushare-flex-landing-hero>.pn-docushare-flex-landing-hero-banner>.pn-docushare-flex-banner-content h1,
+#pn-docushare-flex-landing-hero>.pn-docushare-flex-landing-hero-banner>.pn-docushare-flex-banner-content h4,
+#pn-docushare-flex-landing-hero>.pn-docushare-flex-landing-hero-banner>.pn-docushare-flex-banner-content p {
+    font-family: Roboto Condensed, sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+}
+
+#pn-docushare-flex-landing-hero>.pn-docushare-flex-landing-hero-banner>.pn-docushare-flex-banner-content h4 {
+    margin: 0 0 1.5rem;
+}
+
+#pn-docushare-flex-landing-hero>.pn-docushare-flex-landing-hero-banner>.pn-docushare-flex-banner-content p {
+    margin: 2rem 0;
+}
+
+#pn-docushare-flex-landing-hero>.pn-docushare-flex-landing-hero-banner>.pn-docushare-flex-banner-content a.pn-docushare-flex-button {
+    margin: 1.25em 0 0;
+}
+
+#pn-docushare-flex-landing-hero>.pn-docushare-flex-landing-hero-banner img {
+    height: 100%;
+}
+
+#pn-docushare-flex-landing-hero>.pn-docushare-flex-landing-hero-banner>img.pn-docushare-flex-landing-hero-bg {
+    position: absolute;
+    z-index: 100;
+}
+
+#pn-docushare-flex-landing-hero>.pn-docushare-flex-landing-hero-banner>img.pn-docushare-flex-landing-hero-bg-stars {
+    position: absolute;
+    z-index: 101;
+    opacity: .5;
+}
+
+#pn-docushare-flex-landing-hero>.pn-docushare-flex-landing-hero-banner>img.pn-docushare-flex-landing-hero-fg-stars {
+    position: absolute;
+    z-index: 102;
+    opacity: .5;
+}
+
+@media screen and (max-width:767px) {
+    #pn-docushare-flex-landing-hero>.pn-docushare-flex-landing-hero-banner>.pn-docushare-flex-banner-content {
+        padding: 50px 30px;
+    }
+    #pn-docushare-flex-landing-hero>.pn-docushare-flex-landing-hero-banner>.pn-docushare-flex-banner-content a.pn-docushare-flex-button {
+        margin: 0;
+    }
+}
+
+#pn-docushare-flex-indexing {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    background-image: linear-gradient(-180deg, hsla(0, 0%, 100%, .5), hsla(0, 0%, 79%, .5));
+}
+
+#pn-docushare-flex-indexing .pn-docushare-flex-content-white {
+    width: 60%;
+}
+
+@media (max-width:1000px) {
+    #pn-docushare-flex-indexing .pn-docushare-flex-content-white {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #pn-docushare-flex-indexing .pn-docushare-flex-content-white {
+        width: 100%;
+    }
+}
+
+#pn-docushare-flex-indexing .pn-docushare-flex-text-content {
+    -ms-flex: 1 1 47%;
+    flex: 1 1 47%;
+    background-color: #2895d5;
+    padding: 100px 50px;
+    position: relative;
+}
+
+#pn-docushare-flex-indexing .pn-docushare-flex-text-content p {
+    width: 65%;
+}
+
+@media (max-width:1020px) {
+    #pn-docushare-flex-indexing .pn-docushare-flex-text-content {
+        padding: 50px 30px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #pn-docushare-flex-indexing .pn-docushare-flex-text-content:after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #2895d5;
+    }
+}
+
+#pn-docushare-flex-indexing .pn-docushare-flex-interaction {
+    -ms-flex: 1 1 53%;
+    flex: 1 1 53%;
+    overflow: hidden;
+    position: relative;
+}
+
+#pn-docushare-flex-indexing .pn-docushare-flex-interaction .pn-docushare-flex-hit-test {
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    bottom: 0;
+}
+
+#pn-docushare-flex-indexing .pn-docushare-flex-interaction .pn-docushare-flex-slider {
+    position: relative;
+    cursor: pointer;
+    width: 85%;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    top: 50px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-family: Roboto Condensed, sans-serif;
+    font-family: 400;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #6daf3d;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .2);
+    border-radius: 25.5px 0 0 25.5px;
+}
+
+#pn-docushare-flex-indexing .pn-docushare-flex-interaction .pn-docushare-flex-slider .pn-docushare-flex-pulse {
+    position: absolute;
+    left: 14px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+#pn-docushare-flex-indexing .pn-docushare-flex-interaction .pn-docushare-flex-slider .pn-docushare-flex-pulse:before {
+    content: "";
+    position: relative;
+    display: block;
+    width: 200%;
+    height: 200%;
+    box-sizing: border-box;
+    margin-left: -62%;
+    margin-top: -50%;
+    border-radius: 50%;
+    background-color: hsla(0, 0%, 100%, .5);
+    animation: a 1.25s cubic-bezier(.215, .61, .355, 1) infinite;
+}
+
+#pn-docushare-flex-indexing .pn-docushare-flex-interaction .pn-docushare-flex-slider .pn-docushare-flex-arrow-down {
+    position: absolute;
+    left: 15px;
+    box-shadow: none;
+    top: 15px;
+    width: 22px;
+    height: 50px;
+    margin: 0;
+}
+
+#pn-docushare-flex-indexing .pn-docushare-flex-interaction .pn-docushare-flex-slider strong {
+    font-weight: 700;
+}
+
+#pn-docushare-flex-indexing .pn-docushare-flex-interaction .pn-docushare-flex-invoice-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 0;
+    width: 80%;
+    top: 0;
+    z-index: 5;
+    overflow: hidden;
+    margin-top: 10%;
+}
+
+#pn-docushare-flex-indexing .pn-docushare-flex-interaction .pn-docushare-flex-invoice-pre-scan-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 100%;
+    width: 80%;
+    top: 0;
+    z-index: 3;
+    overflow: hidden;
+    margin-top: 10%;
+    box-shadow: 0 0 14px rgba(0, 0, 0, .14);
+}
+
+#pn-docushare-flex-indexing .pn-docushare-flex-interaction img {
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    bottom: -10%;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, .14);
+}
+
+#pn-docushare-flex-indexing #pn-docushare-flex-indexing-curved-edge {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+
+@media screen and (max-width:767px) {
+    #pn-docushare-flex-indexing #pn-docushare-flex-indexing-curved-edge {
+        display: none;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #pn-docushare-flex-indexing {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    #pn-docushare-flex-indexing .pn-docushare-flex-text-content {
+        -ms-flex: 1 1 100%;
+        flex: 1 1 100%;
+        text-align: center;
+    }
+    #pn-docushare-flex-indexing .pn-docushare-flex-text-content p {
+        width: 100%;
+    }
+    #pn-docushare-flex-indexing .pn-docushare-flex-interaction {
+        -ms-flex: 1 1 100%;
+        flex: 1 1 100%;
+        margin: 30px 0;
+    }
+    #pn-docushare-flex-indexing .pn-docushare-flex-interaction .pn-docushare-flex-invoice-pre-scan-container {
+        position: static;
+    }
+}
+
+#pn-docushare-flex-collaboration {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    background-image: linear-gradient(-180deg, hsla(0, 0%, 100%, .5), hsla(0, 0%, 79%, .5));
+}
+
+#pn-docushare-flex-collaboration .pn-docushare-flex-text-content {
+    -ms-flex: 1 1 47%;
+    flex: 1 1 47%;
+    -ms-flex-order: 2;
+    order: 2;
+    background-color: #2895d5;
+    padding: 100px 50px 100px 120px;
+    position: relative;
+}
+
+#pn-docushare-flex-collaboration .pn-docushare-flex-interaction {
+    -ms-flex: 0 0 53%;
+    flex: 0 0 53%;
+    position: relative;
+    -ms-flex-order: 1;
+    order: 1;
+    z-index: 5;
+    overflow: hidden;
+}
+
+@media screen and (max-width:969px) {
+    #pn-docushare-flex-collaboration .pn-docushare-flex-interaction {
+        overflow: visible;
+    }
+}
+
+#pn-docushare-flex-collaboration .pn-docushare-flex-interaction .pn-docushare-flex-dashboard {
+    width: 55%;
+    left: 50px;
+    position: absolute;
+    bottom: -10px;
+    top: 0;
+    margin: auto;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, .14);
+}
+
+@media (max-width:1020px) {
+    #pn-docushare-flex-collaboration .pn-docushare-flex-interaction .pn-docushare-flex-dashboard {
+        width: 70%;
+        bottom: 0;
+        left: 20px;
+    }
+}
+
+#pn-docushare-flex-collaboration .pn-docushare-flex-interaction .pn-docushare-flex-comment-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 7%;
+    height: 20%;
+}
+
+@media (max-width:1020px) {
+    #pn-docushare-flex-collaboration .pn-docushare-flex-interaction .pn-docushare-flex-comment-container {
+        right: 0;
+    }
+}
+
+@media screen and (max-width:969px) {
+    #pn-docushare-flex-collaboration .pn-docushare-flex-interaction .pn-docushare-flex-comment-container {
+        right: -50px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #pn-docushare-flex-collaboration .pn-docushare-flex-interaction .pn-docushare-flex-comment-container {
+        right: 0;
+    }
+}
+
+#pn-docushare-flex-collaboration .pn-docushare-flex-interaction .pn-docushare-flex-comment-container .pn-docushare-flex-fade-in-stagger {
+    visibility: hidden;
+}
+
+#pn-docushare-flex-collaboration .pn-docushare-flex-interaction .pn-docushare-flex-comment-container .pn-docushare-flex-comment {
+    width: auto;
+    height: 40px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#pn-docushare-flex-collaboration .pn-docushare-flex-interaction .pn-docushare-flex-comment-container .pn-docushare-flex-comment.pn-docushare-flex-hidden {
+    visibility: hidden;
+    transform: translateX(-50px);
+}
+
+#pn-docushare-flex-collaboration .pn-docushare-flex-interaction .pn-docushare-flex-comment-container .pn-docushare-flex-comment-add {
+    font-family: Roboto Condensed, sans-serif;
+    font-weight: 400;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#pn-docushare-flex-collaboration .pn-docushare-flex-interaction .pn-docushare-flex-comment-container .pn-docushare-flex-comment-add .pn-docushare-flex-add {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #6daf3d;
+    color: #fff;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 24px;
+    margin-right: 10px;
+    margin-left: 5px;
+    position: relative;
+    z-index: 2;
+}
+
+#pn-docushare-flex-collaboration .pn-docushare-flex-interaction .pn-docushare-flex-comment-container .pn-docushare-flex-comment-add .pn-docushare-flex-add:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 60px;
+    top: -15px;
+    left: -15px;
+    box-sizing: border-box;
+    z-index: -1;
+    margin-left: 0;
+    margin-top: 0;
+    border-radius: 50%;
+    background-color: rgba(109, 175, 61, .5);
+    animation: a 1.25s cubic-bezier(.215, .61, .355, 1) infinite;
+}
+
+#pn-docushare-flex-collaboration #pn-docushare-flex-collaboration-curved-edge {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+@media screen and (max-width:767px) {
+    #pn-docushare-flex-collaboration #pn-docushare-flex-collaboration-curved-edge {
+        display: none;
+    }
+}
+
+@media (max-width:1020px) {
+    #pn-docushare-flex-collaboration .pn-docushare-flex-text-content {
+        padding: 80px 30px 80px 120px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #pn-docushare-flex-collaboration {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    #pn-docushare-flex-collaboration .pn-docushare-flex-interaction {
+        -ms-flex: 1 1 100%;
+        flex: 1 1 100%;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+    #pn-docushare-flex-collaboration .pn-docushare-flex-interaction .pn-docushare-flex-dashboard {
+        position: relative;
+        left: 30px;
+        margin-bottom: 20px;
+    }
+    #pn-docushare-flex-collaboration .pn-docushare-flex-interaction .pn-docushare-flex-comment-container {
+        padding-right: 10px;
+    }
+    #pn-docushare-flex-collaboration .pn-docushare-flex-text-content {
+        -ms-flex: 1 1 100%;
+        flex: 1 1 100%;
+        -ms-flex-order: 1;
+        order: 1;
+        padding: 50px 30px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    #pn-docushare-flex-collaboration .pn-docushare-flex-text-content:after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #2895d5;
+    }
+}
+
+@media screen and (max-width:479px) {
+    #pn-docushare-flex-collaboration .pn-docushare-flex-interaction {
+        overflow: hidden;
+    }
+    #pn-docushare-flex-collaboration .pn-docushare-flex-interaction .pn-docushare-flex-dashboard {
+        left: -20%;
+        margin-bottom: 30px;
+    }
+    #pn-docushare-flex-collaboration .pn-docushare-flex-interaction .pn-docushare-flex-comment-container {
+        height: 40%;
+    }
+}
+
+#pn-docushare-flex #pn-docushare-flex-integration {
+    overflow: hidden;
+    padding: 100px 50px;
+}
+
+#pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-text-content {
+    padding-right: 40px;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+}
+
+#pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds {
+    position: relative;
+    margin-top: 60px;
+}
+
+#pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-xerox-logo {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 25%;
+    z-index: 10;
+}
+
+@media (max-width:1040px) {
+    #pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-xerox-logo {
+        top: -50px;
+    }
+}
+
+@media (max-width:820px) {
+    #pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-xerox-logo {
+        top: 0;
+    }
+}
+
+#pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud-container {
+    visibility: hidden;
+}
+
+#pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud {
+    position: absolute;
+}
+
+#pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud.pn-docushare-flex-cloud-1 {
+    width: 51px;
+    filter: drop-shadow(1px 4px 20px rgba(0, 0, 0, .11));
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud.pn-docushare-flex-cloud-2 {
+    width: 76px;
+    filter: drop-shadow(1px 4px 20px rgba(0, 0, 0, .11));
+    top: -150px;
+    bottom: 0;
+    left: 88px;
+    margin: auto;
+}
+
+#pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud.pn-docushare-flex-cloud-3 {
+    width: 51px;
+    right: 95px;
+    top: 10px;
+    filter: drop-shadow(1px 4px 20px rgba(0, 0, 0, .11));
+}
+
+#pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud.pn-docushare-flex-cloud-4 {
+    width: 51px;
+    filter: drop-shadow(1px 4px 20px rgba(0, 0, 0, .11));
+    top: 146px;
+    right: 10px;
+    z-index: 6;
+}
+
+#pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud.pn-docushare-flex-cloud-handshake {
+    width: 153px;
+    left: 0;
+    top: 0;
+    z-index: 5;
+}
+
+#pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud.pn-docushare-flex-cloud-chart {
+    width: 153px;
+    left: 20px;
+    top: 70px;
+    z-index: 4;
+}
+
+#pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud.pn-docushare-flex-cloud-pen {
+    width: 168px;
+    right: 20px;
+    top: 60px;
+    z-index: 2;
+}
+
+#pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud.pn-docushare-flex-cloud-lightbulb {
+    width: 153px;
+    right: 0;
+    z-index: 5;
+}
+
+@media (max-width:1040px) {
+    #pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud.pn-docushare-flex-cloud-4 {
+        top: 120px;
+    }
+    #pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud.pn-docushare-flex-cloud-chart,
+    #pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud.pn-docushare-flex-cloud-handshake,
+    #pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud.pn-docushare-flex-cloud-lightbulb {
+        width: 120px;
+    }
+    #pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud.pn-docushare-flex-cloud-pen {
+        width: 130px;
+    }
+}
+
+@media (max-width:820px) {
+    #pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud.pn-docushare-flex-cloud-1 {
+        width: 51px;
+        top: 30px;
+    }
+    #pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud.pn-docushare-flex-cloud-2 {
+        width: 50px;
+        top: -60px;
+        left: 60px;
+    }
+    #pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud.pn-docushare-flex-cloud-3 {
+        width: 51px;
+        right: 55px;
+        top: 60px;
+    }
+    #pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud.pn-docushare-flex-cloud-4 {
+        top: 150px;
+        width: 51px;
+        right: 10px;
+    }
+    #pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud.pn-docushare-flex-cloud-handshake {
+        width: 100px;
+        top: 80px;
+        left: 0;
+    }
+    #pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud.pn-docushare-flex-cloud-chart {
+        width: 100px;
+        left: 20px;
+        top: 120px;
+    }
+    #pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud.pn-docushare-flex-cloud-pen {
+        width: 110px;
+        right: 20px;
+        top: 104px;
+    }
+    #pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud.pn-docushare-flex-cloud-lightbulb {
+        top: 65px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #pn-docushare-flex #pn-docushare-flex-integration {
+        padding: 50px 10vw;
+    }
+    #pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-text-content {
+        text-align: center;
+        padding-right: 0;
+    }
+    #pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds {
+        margin-top: 20px;
+    }
+    #pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-clouds .pn-docushare-flex-cloud-container {
+        padding: 250px 0 0;
+    }
+}
+
+@media screen and (max-width:479px) {
+    #pn-docushare-flex #pn-docushare-flex-integration {
+        padding: 0;
+    }
+    #pn-docushare-flex #pn-docushare-flex-integration .pn-docushare-flex-text-content {
+        padding: 50px 30px 0;
+    }
+}
+
+#pn-docushare-flex-control .pn-docushare-flex-text-content {
+    background: url(../images/pn-docushare-flex-control-bg.jpg) no-repeat 50%;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 50px 50px 0;
+}
+
+#pn-docushare-flex-control .pn-docushare-flex-text-content:before {
+    content: "";
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/pn-docushare-flex-edge-top.png) no-repeat top;
+    background-size: contain;
+}
+
+#pn-docushare-flex-control .pn-docushare-flex-text-content:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 160px;
+    width: 100%;
+    left: 0;
+    z-index: 0;
+    background-color: #fff;
+}
+
+#pn-docushare-flex-control .pn-docushare-flex-text-content .pn-docushare-flex-icon {
+    margin: 0 auto 30px;
+    width: 45px;
+}
+
+#pn-docushare-flex-control .pn-docushare-flex-text-content p {
+    font-size: 18px;
+    width: 100%;
+    max-width: 490px;
+    margin: auto;
+    line-height: 28px;
+    color: #fff;
+}
+
+#pn-docushare-flex-control .pn-docushare-flex-text-content .pn-docushare-flex-safe-container {
+    margin-top: 50px;
+    position: relative;
+    z-index: 5;
+}
+
+#pn-docushare-flex-control .pn-docushare-flex-text-content .pn-docushare-flex-safe-container .pn-docushare-flex-safe {
+    width: 400px;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+#pn-docushare-flex-control .pn-docushare-flex-text-content .pn-docushare-flex-safe-container .pn-docushare-flex-safe-button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 10;
+    pointer-events: none;
+    cursor: pointer;
+}
+
+#pn-docushare-flex-control .pn-docushare-flex-text-content .pn-docushare-flex-safe-container .pn-docushare-flex-safe-button #pn-docushare-flex-indicator-button {
+    position: relative;
+}
+
+#pn-docushare-flex-control .pn-docushare-flex-text-content .pn-docushare-flex-safe-container .pn-docushare-flex-safe-button #pn-docushare-flex-indicator-button-pulse {
+    transform: scale(2);
+    transform-origin: 25px 41px;
+    transition: transform .5s ease-in-out;
+    animation: a 1.25s cubic-bezier(.215, .61, .355, 1) infinite;
+}
+
+#pn-docushare-flex-control .pn-docushare-flex-text-content .pn-docushare-flex-safe-container #pn-docushare-flex-hatch {
+    opacity: 0;
+    z-index: 5;
+}
+
+#pn-docushare-flex-control .pn-docushare-flex-text-content .pn-docushare-flex-safe-container .pn-docushare-flex-bolt {
+    z-index: 6;
+    opacity: 0;
+}
+
+#pn-docushare-flex-control .pn-docushare-flex-text-content .pn-docushare-flex-safe-container #pn-docushare-flex-wheel {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, .6));
+    z-index: 3;
+}
+
+#pn-docushare-flex-control .pn-docushare-flex-text-content .pn-docushare-flex-safe-container .pn-docushare-flex-bars {
+    opacity: 0;
+    filter: drop-shadow(2px 3px 10px rgba(0, 0, 0, .15));
+}
+
+@media screen and (max-width:767px) {
+    #pn-docushare-flex-control .pn-docushare-flex-text-content {
+        padding: 50px 30px 0;
+    }
+    #pn-docushare-flex-control .pn-docushare-flex-text-content .pn-docushare-flex-safe-container .pn-docushare-flex-safe-button {
+        width: 100%;
+    }
+    #pn-docushare-flex-control .pn-docushare-flex-text-content .pn-docushare-flex-safe-container .pn-docushare-flex-safe {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:479px) {
+    #pn-docushare-flex-control .pn-docushare-flex-text-content .pn-docushare-flex-safe-container {
+        margin-top: 0;
+    }
+}
+
+@keyframes a {
+    0% {
+        transform: scale(.33);
+    }
+    80%,
+    to {
+        opacity: 0;
+    }
+}
+
+#pn-docushare-flex-extend {
+    padding: 0 200px;
+}
+
+#pn-docushare-flex-extend .pn-docushare-flex-col-66 {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+}
+
+#pn-docushare-flex-extend p {
+    padding-right: 20px;
+}
+
+#pn-docushare-flex-extend .pn-docushare-flex-icon {
+    width: 36px;
+}
+
+#pn-docushare-flex-extend .pn-docushare-flex-parallax-zone {
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+}
+
+#pn-docushare-flex-extend .pn-docushare-flex-card {
+    pointer-events: none;
+    transform: translateZ(0);
+    padding: 50px;
+    border-radius: 5px;
+    margin: auto;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+}
+
+#pn-docushare-flex-extend .pn-docushare-flex-card .pn-docushare-flex-card-content {
+    margin: auto;
+    text-align: center;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+#pn-docushare-flex-extend .pn-docushare-flex-phone {
+    overflow: hidden;
+}
+
+#pn-docushare-flex-extend .pn-docushare-flex-phone video {
+    width: 100%;
+}
+
+@media (max-width:1200px) {
+    #pn-docushare-flex-extend {
+        padding: 0 100px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #pn-docushare-flex-extend {
+        padding: 50px 30px;
+    }
+    #pn-docushare-flex-extend .pn-docushare-flex-text-content {
+        text-align: center;
+    }
+    #pn-docushare-flex-extend .pn-docushare-flex-card-content video {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:479px) {
+    #pn-docushare-flex-extend {
+        padding: 0 20px;
+    }
+    #pn-docushare-flex-extend .pn-docushare-flex-card-content video {
+        width: 100%;
+    }
+}
+
+#pn-docushare-flex-trial {
+    position: relative;
+}
+
+#pn-docushare-flex-trial>.pn-docushare-flex-trial-banner {
+    background-image: url(../images/pn-docushare-flex-trial-particles.jpg);
+    background-color: #2895d5;
+    height: auto;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+#pn-docushare-flex-trial>.pn-docushare-flex-trial-banner>.pn-docushare-flex-banner-content {
+    text-align: center;
+    padding: 7.5vh 5vh;
+    position: relative;
+    z-index: 104;
+}
+
+#pn-docushare-flex-trial>.pn-docushare-flex-trial-banner>.pn-docushare-flex-banner-content h2,
+#pn-docushare-flex-trial>.pn-docushare-flex-trial-banner>.pn-docushare-flex-banner-content p {
+    color: #fff;
+}
+
+#pn-docushare-flex-trial>.pn-docushare-flex-trial-banner>.pn-docushare-flex-banner-content p {
+    margin: 2rem 0;
+}
+
+#pn-docushare-flex-trial>.pn-docushare-flex-trial-banner>.pn-docushare-flex-banner-content a.pn-docushare-flex-button {
+    margin: 1.25em 0 0;
+}
+
+@media screen and (max-width:767px) {
+    #pn-docushare-flex-trial>.pn-docushare-flex-trial-banner>.pn-docushare-flex-banner-content {
+        padding: 50px 30px;
+    }
+}
+
+#pn-docushare-flex h1,
+#pn-docushare-flex h2,
+#pn-docushare-flex h3,
+#pn-docushare-flex h4,
+#pn-docushare-flex h6,
+#pn-docushare-flex p {
+    font-family: Roboto Condensed, sans-serif;
+    font-weight: 400;
+    color: #333;
+    margin: 0;
+}
+
+#pn-docushare-flex h1.pn-docushare-flex-content-blue,
+#pn-docushare-flex h2.pn-docushare-flex-content-blue,
+#pn-docushare-flex h3.pn-docushare-flex-content-blue,
+#pn-docushare-flex h4.pn-docushare-flex-content-blue,
+#pn-docushare-flex h6.pn-docushare-flex-content-blue,
+#pn-docushare-flex p.pn-docushare-flex-content-blue {
+    color: #2895d5;
+}
+
+#pn-docushare-flex h1.pn-docushare-flex-content-white,
+#pn-docushare-flex h2.pn-docushare-flex-content-white,
+#pn-docushare-flex h3.pn-docushare-flex-content-white,
+#pn-docushare-flex h4.pn-docushare-flex-content-white,
+#pn-docushare-flex h6.pn-docushare-flex-content-white,
+#pn-docushare-flex p.pn-docushare-flex-content-white {
+    color: #fff;
+}
+
+#pn-docushare-flex h1 {
+    font-size: 42px;
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+
+@media screen and (max-width:767px) {
+    #pn-docushare-flex h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+#pn-docushare-flex h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+@media (max-width:900px) {
+    #pn-docushare-flex h2 {
+        font-size: 24px;
+    }
+}
+
+#pn-docushare-flex h3 {
+    font-size: 28px;
+}
+
+#pn-docushare-flex h4 {
+    font-size: 24px;
+}
+
+@media screen and (max-width:767px) {
+    #pn-docushare-flex h4 {
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+}
+
+#pn-docushare-flex p {
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+#pn-docushare-flex sup {
+    font-size: 50%;
+}
+
+#pn-docushare-flex .pn-docushare-flex-particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: url(.);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: 103;
+}
+
+section.pn-docushare-flex-component {
+    padding-bottom: 3em;
+}
+
+@media screen and (max-width:767px) {
+    section.pn-docushare-flex-component {
+        padding-bottom: 1.5em;
+    }
+}

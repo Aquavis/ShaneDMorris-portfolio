@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="87px" height="59px" viewBox="0 0 87 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M68.53125,21.5175 C66.1229167,9.226875 55.3916667,0 42.5,0 C32.2645833,0 23.375,5.8425 18.9479167,14.3925 C8.2875,15.5325 0,24.616875 0,35.625 C0,47.416875 9.52708333,57 21.25,57 L67.2916667,57 C77.0666667,57 85,49.02 85,39.1875 C85,29.7825 77.7395833,22.15875 68.53125,21.5175 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-page-design" transform="translate(-805.000000, -2061.000000)">
+            <g id="Group-23" transform="translate(710.000000, 2050.000000)">
+                <g id="Group-14-Copy-3" transform="translate(96.000000, 12.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Shape-Copy" stroke="#EDEDED" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

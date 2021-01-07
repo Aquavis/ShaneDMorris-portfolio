@@ -1,0 +1,18 @@
+@import 'variables';
+
+footer{
+	background-image:url(../images/bg-footer.jpg);
+	background-size:cover;
+	background-position:center center;
+	padding:85px 0;
+	text-align:center;
+	a{
+		font-family: $body-font;
+		font-size: 24px;
+		font-style:italic;
+		color: #E4CB90;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+}
