@@ -111,6 +111,13 @@ main{
 			max-width:900px;
 			margin:0 auto 10px;
 			box-shadow:0 0 10px rgba(0,0,0,.25);
+			&.no-shadow{
+				box-shadow:none;
+			}
+			&.natural-size{
+				width:auto;
+				margin-bottom:100px;
+			}
 		}
 		p{
 			max-width:850px;

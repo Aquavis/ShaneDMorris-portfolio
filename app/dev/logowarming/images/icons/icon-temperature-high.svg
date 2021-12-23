@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg class="high" width="20px" height="44px" viewBox="0 0 20 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-490.000000, -661.000000)" fill="#FFCD00">
+            <g id="Group-7" transform="translate(490.000000, 661.000000)">
+                <path d="M0,10 L0,30 C0,31.106 0.896,32 2,32 C3.104,32 4,31.106 4,30 L4,18 C4,16.894 4.896,16 6,16 C7.104,16 8,16.894 8,18 L8,36 C8,37.106 8.896,38 10,38 C11.104,38 12,37.106 12,36 L12,18 C12,16.894 12.896,16 14,16 C15.104,16 16,16.894 16,18 L16,24 C16,25.106 16.896,26 18,26 C19.104,26 20,25.106 20,24 L20,10 C20,4.476 15.522,0 10,0 C4.478,0 0,4.476 0,10" id="Fill-1"></path>
+                <path d="M10,44 L10,44 C8.9,44 8,43.1 8,42 C8,40.9 8.9,40 10,40 C11.1,40 12,40.9 12,42 C12,43.1 11.1,44 10,44" id="Fill-3"></path>
+                <path d="M18,36 L18,36 C16.9,36 16,35.1 16,34 L16,30 C16,28.9 16.9,28 18,28 C19.1,28 20,28.9 20,30 L20,34 C20,35.1 19.1,36 18,36" id="Fill-5"></path>
+                <rect id="Rectangle-Copy" x="0" y="0" width="20" height="14" rx="4"></rect>
+            </g>
+        </g>
+    </g>
+</svg> 

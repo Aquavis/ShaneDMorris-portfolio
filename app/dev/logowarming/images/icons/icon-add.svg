@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Inactive-state" transform="translate(-209.000000, -424.000000)" stroke="#0075AE" stroke-width="3">
+            <g id="add-an-image-button" transform="translate(182.000000, 403.000000)">
+                <g id="Group" transform="translate(27.000000, 21.000000)">
+                    <path d="M10.5,0 L10.5,21" id="Path-2"></path>
+                    <path d="M10.5,0 L10.5,21" id="Path-2-Copy" transform="translate(10.500000, 10.500000) rotate(-90.000000) translate(-10.500000, -10.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
