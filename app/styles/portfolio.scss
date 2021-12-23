@@ -116,7 +116,13 @@ main{
 			}
 			&.natural-size{
 				width:auto;
+				max-width: 100%;
 				margin-bottom:100px;
+			}
+			&.full-width{
+				max-width:100%;
+				margin:0 auto;
+				width:100%;
 			}
 		}
 		p{
